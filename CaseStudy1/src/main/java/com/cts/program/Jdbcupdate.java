@@ -6,7 +6,22 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * Specified data will be updated in database
+ * 
+ * @author 542224
+ *
+ */
 public class Jdbcupdate {
+	/**
+	 * registers driver class,establish connection,execute update query
+	 * 
+	 * @param args
+	 * @throws InstantiationException
+	 * @throws IllegalAccessException
+	 * @throws ClassNotFoundException
+	 * @throws SQLException
+	 */
 	public static void main(String args[])
 			throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 

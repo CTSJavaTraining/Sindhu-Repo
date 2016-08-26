@@ -1,17 +1,20 @@
 package com.cts.Empdetails;
-import java.io.Serializable;;
-public class Employee implements Serializable {
+
+import java.io.Serializable;
+
+public class SerialDeserial implements Serializable {
 	private static final long serialVersionUID = 1L;
 	// TODO:Acees modifiers
 	private int id;
 	private String name;
 
 	/**
-	 * 
+	 *
 	 * @param id
 	 * @param name
+	 *            constructor with (Integer,String) arguments
 	 */
-	public Employee(int id, String name) {
+	public SerialDeserial(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}

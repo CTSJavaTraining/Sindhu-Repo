@@ -3,7 +3,18 @@ package com.cts.map;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * letter occurrence count stored in Hashmap
+ * 
+ * @author 542224
+ *
+ */
 public class Empcount {
+	/**
+	 * Hashmap with key as letter and value as occurrence count
+	 * 
+	 * @param args
+	 */
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();

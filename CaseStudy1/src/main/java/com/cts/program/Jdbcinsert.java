@@ -6,7 +6,22 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * specified content is inserted
+ * 
+ * @author 542224
+ *
+ */
 public class Jdbcinsert {
+	/**
+	 * registers driver class,establish connection,execute insert query
+	 * 
+	 * @param args
+	 * @throws InstantiationException
+	 * @throws IllegalAccessException
+	 * @throws ClassNotFoundException
+	 * @throws SQLException
+	 */
 	public static void main(String args[])
 			throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 

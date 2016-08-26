@@ -6,7 +6,22 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * contents of table displayed
+ * 
+ * @author 542224
+ *
+ */
 public class Simplejdbc {
+	/**
+	 * registers driver class,establishes connection,executes select query
+	 * 
+	 * @param args
+	 * @throws InstantiationException
+	 * @throws IllegalAccessException
+	 * @throws ClassNotFoundException
+	 * @throws SQLException
+	 */
 	public static void main(String args[])
 			throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 

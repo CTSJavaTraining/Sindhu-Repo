@@ -2,7 +2,7 @@ package com.cts.reflect;
 
 import java.lang.reflect.Field;
 
-public class Reflection1 {
+public class ReflectionMain {
 	public static void main(String[] args) {
 		try {
 			Class cls = Class.forName("com.cts.reflect.reflection");

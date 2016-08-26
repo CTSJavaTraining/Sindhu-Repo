@@ -6,7 +6,22 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * Specified content deleted from database
+ * 
+ * @author 542224
+ *
+ */
 public class Jdbcdelete {
+	/**
+	 * register the driver class ,establish connection ,execute delete query
+	 * 
+	 * @param args
+	 * @throws InstantiationException
+	 * @throws IllegalAccessException
+	 * @throws ClassNotFoundException
+	 * @throws SQLException
+	 */
 	public static void main(String args[])
 			throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 

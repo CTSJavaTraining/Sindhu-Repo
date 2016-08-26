@@ -1,4 +1,4 @@
-package com.cts.statics;
+package com.cts.Employee;
 
 import java.util.Scanner;
 

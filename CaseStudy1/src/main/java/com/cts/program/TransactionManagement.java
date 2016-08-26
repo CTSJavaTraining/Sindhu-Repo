@@ -5,6 +5,12 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * commit and roll back is performed
+ * 
+ * @author 542224
+ *
+ */
 public class TransactionManagement {
 	public static void main(String args[])
 			throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
