@@ -1,4 +1,4 @@
-package com.cts.Local;
+package com.cts.ThreadLocal;
 
 public class TransactionID implements Runnable {
 

@@ -1,6 +1,6 @@
-package com.cts.Local;
+package com.cts.ThreadLocal;
 
-public class Localmain {
+public class ThreadLocalmain {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
